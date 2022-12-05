@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+.container {
+  display: flex;
+  align-items: center;
+	min-width: 100vw;
+  min-height: 100vh;
+  background-color: #FFFFFF;
+}
+.content {
+  display: flex;
+	margin: 0 auto;
+	width: 900px;
+	height: 500px;
+  border-style: none;
+  background-color: #042F39;
+  border-radius: 5px;
+}
+.imagediv > img {
+  width: 440px;
+  height: 500px;
+  border-radius: 5px 0 0 5px;
+}
+/* Admin User Input*/
+.form {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.mainform {
+  height: 500px;
+}
+/* WELCOME */
+.mainform > h1 {
+  text-align: center;
+  font-size: 48px;
+  line-height: 48px;
+  margin: 50px 0 0 0;
+  font-family: 'Ubuntu Mono', monospace;
+  color: white;
+}
+/* ADMINISTRATOR LOGIN */
+.mainform > h3 {
+  text-align: center;
+  font-size: 23px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 33px;
+  margin-bottom: 70px;
+  font-family: 'Roboto Mono', monospace;
+  color: #eeeeee;
+}
+.forminput {
+  text-align: center;
+}
+.inputs {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  width: 380px;
+  height: 43px;
+  color: #FFFFFF;
+}
+/* Login button */
+.primary {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 25px;
+  width: 410px;
+  height: 37px;
+  margin: 0 -35px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #de7a01;
+  display: flex;
+  justify-content: center;
+  border-style: none;
+}
+.primary:hover {
+  background-color: #f0911e;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+/* Back to Home button */
+.secondary {
+  font-family: 'Roboto Slab', sans-serif;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 100;
+  border-style: none;
+  background-color: #042F39;
+  box-shadow: 0 2px 0 0 #06805b;
+  cursor: pointer;
+}
+.secondary:hover {
+  box-shadow: 0 2px 0 0 #33b1ff;
+}

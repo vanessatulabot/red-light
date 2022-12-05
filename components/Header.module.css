@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@500&display=swap');
+
+.parent {
+    height: 60px;
+    top: 0;
+    margin-left: 230px;
+    background-color: #fafafa;
+    box-shadow: 1px 2px 1em rgb(131, 131, 131);
+    position: -webkit-sticky;
+    position: sticky;
+}
+.container {
+    height: 60px;
+    margin: 0 0 0 34%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile_icon {
+    display: flex;
+    justify-content: flex-end;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+/* Traffic Light Violation System */
+.container > h2 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 26px;
+    color: rgb(49, 49, 49);
+    text-shadow: 2px 2px #f08400aa;
+}
+@media screen and (max-width: 700px) {
+    .parent {
+        height: 60px;
+        margin-left: 140px;
+        position: relative;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        align-items: center;
+    }
+    .menu_icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .profile_icon {
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+    }
+    .container > h2 {
+        font-family: 'Ubuntu Mono', monospace;
+        font-size: 18px;
+        color: rgb(49, 49, 49);
+        text-shadow: 1px 1px #f08400aa;
+    }
+}
